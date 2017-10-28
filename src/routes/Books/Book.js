@@ -61,23 +61,6 @@ class Book extends Component {
       </div>
     );
 
-    // if (item) {
-    //   return (
-    //     <Item>
-    //       <Item.Image size="tiny" src="/assets/images/wireframe/image.png" />
-
-    //       <Item.Content>
-    //         <Item.Header as="a">{book.name}</Item.Header>
-    //         <Item.Meta>{book.author}</Item.Meta>
-    //         <Item.Description>
-    //           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur elementum nisi ut turpis rutrum, in lacinia mi ultrices.
-    //         </Item.Description>
-    //         <Item.Extra>{extra}</Item.Extra>
-    //       </Item.Content>
-    //     </Item>
-    //   );
-    // }
-
     return (
       <Card
         style={item === true ? { width: '3000' } : { width: '100%' }}
